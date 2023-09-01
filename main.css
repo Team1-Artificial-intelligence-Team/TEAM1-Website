@@ -220,8 +220,16 @@ font-weight: 600;
 @media (min-width: 1080px) {
 .content .img{
     margin-right: 1100px;
+    }
 }
+
+@media (max-width:1366px) {
+    .content .img{
+    margin-right: 700px;
+
+    }
 }
+
 
 
 /* end landing */
