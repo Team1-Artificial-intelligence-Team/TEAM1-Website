@@ -100,7 +100,7 @@ body{
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 .content ul div:not(:first-child){
     display: none;
 }
