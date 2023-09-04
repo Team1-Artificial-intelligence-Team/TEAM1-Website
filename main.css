@@ -255,12 +255,14 @@ color: white;
     font-weight: normal;
     font-size: 25px;
 }
+
 .about-us .text  .img{
     margin: 0;
     width: 200px;
     height: 200px;
     margin-bottom: 30px;
     transition: 0.3s;
+    border-radius: 50%;
 }
 
 .h1-in-about{
@@ -283,8 +285,8 @@ color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .hassan-mohamed:hover .img{
- 
     transform: scale(1.1);
+
 }
 /* end about us  */
 
