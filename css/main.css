@@ -76,7 +76,8 @@ html {
     width: 100%;
     position: fixed;
     z-index: 99900;
-    transition: 0.3s;
+    transition:0.6s;
+
 }
 
 /* end load */
