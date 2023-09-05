@@ -7,7 +7,7 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./css/main.css">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +22,9 @@
 </head>
 
 <body>
+    <!-- start load -->
+    <div id="pre-loader"></div>
+    <!-- end load -->
     <!--  start nav -->
     <span id="nav"></span>
     <div class="nav ">
@@ -68,9 +71,9 @@
         <video class="landing-img absolute" src="./video/Dark_Background_Web.mp4" autoplay muted loop></video>
         <div class="text flex flex-col ">
             <div
-                class="hassan-mohamed w-[100] bg-gray-800 border-e border-e-white rounded-xl cursor-pointer  flex justify-around items-center mb-8 ">
+                class="hassan-mohamed1 w-[100] bg-gray-800 border-e border-e-white rounded-xl cursor-pointer flex justify-around items-center mb-8 ">
                 <div class="text">
-                    <div class="img  w-[200px] h-[170px] ">
+                    <div class="imgh  w-[200px] h-[170px] ">
                         <img src="./img/unknown_person.png" alt="" class="">
                     </div>
                     <div class="hassan-text flex justify-start items-strat flex-col ml-[80px] text-[28px]">
@@ -86,9 +89,9 @@
                 </div>
             </div>
             <div
-                class="hassan-mohamed w-[100%] bg-gray-800 border-e border-e-white rounded-xl flex justify-around items-center   mb-8">
+                class="hassan-mohamed2 w-[100%] bg-gray-800 border-e border-e-white rounded-xl flex justify-around items-center   mb-8">
                 <div class="ml-[px] text">
-                    <div class="img  w-[200px] h-[170px] ">
+                    <div class="imgh  w-[200px] h-[170px] ">
                         <img src="./img/unknown_person.png" alt="" class="">
                     </div>
                     <div class="hassan-text flex justify-start items-strat flex-col ml-[90px] text-[28px] ">
@@ -104,9 +107,9 @@
                 </div>
             </div>
             <div
-                class="hassan-mohamed w-[100%] bg-gray-800 border-e border-e-white rounded-xl flex justify-around items-center  mb-8">
+                class="hassan-mohamed3 w-[100%] bg-gray-800 border-e border-e-white rounded-xl flex justify-around items-center  mb-8">
                 <div class="text">
-                    <div class="img  w-[200px] h-[170px] ">
+                    <div class="imgh  w-[200px] h-[170px] ">
                         <img src="./img/unknown_person.png" alt="" class="">
                     </div>
                     <div class="hassan-text flex justify-start items-strat flex-col ml-[98px] text-[28px]">
@@ -123,9 +126,9 @@
                 </div>
             </div>
             <div
-                class="hassan-mohamed w-[100%] bg-gray-800 border-e border-e-white rounded-xl  flex justify-around items-center  mb-8">
+                class="hassan-mohamed4 w-[100%] bg-gray-800 border-e border-e-white rounded-xl  flex justify-around items-center  mb-8">
                 <div class="ml-[0px] text">
-                    <div class="img  w-[200px] h-[170px] ">
+                    <div class="imgh w-[200px] h-[170px] ">
                         <img src="./img/unknown_person.png" alt="" class="">
                     </div>
                     <div class="hassan-text flex justify-start items-strat flex-col ml-[98px] text-[28px]">
@@ -142,25 +145,35 @@
             </div>
         </div>
     </div>
+    <br>
+    <br>
     <!--end about us -->
     <!-- start projects -->
     <div class="container mb-5 " id="projects">
         <h1 class=" my-4 text-[50px] text-white h1-pro uppercase">- projects -</h1>
         <div class="px-5 con">
-            <div class="">
-                <div
-                    class="max-w-sm bg-white border border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700 p-4">
-                    <img class="rounded-t-lg" src="./img/pro1.png" alt="" class=" w-54" />
+            <div>
+                <div class="max-w-sm   rounded-lg bg-gray-800 border-gray-700 p-4  ">
+                    <img class="rounded-t-lg" src="./img/pro1.png" alt="" class=" w-54 " />
                     <div class="p-5">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white cursor-default">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white cursor-default">
                             This project, in brief, was developed by Team 1 and uses the bubble sort algorithm.
                         </h5>
-                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 cursor-default">Sorting Names in
+                        <p class="mb-3 font-normal  text-gray-400 cursor-default">Sorting Names in
                             Array.</p>
-                        <div class="flex justify-center ">
+                        <div class="flex justify-start items-start flex-col">
                             <a href="https://github.com/Team1-Artificial-intelligence-Team/Project-1-Embedded-Systems-Course-/archive/refs/heads/main.zip"
-                                class="inline-flex items-center px-3 ml-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg duration-300 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                class="inline-flex items-center px-3 ml-4 py-2 text-sm font-medium text-center text-white  rounded-lg duration-300 focus:ring-4 focus:outline-none focus:ring-blue-30 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800 mb-4">
                                 Download Source Code
+                                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                            <a href="https://github.com/Team1-Artificial-intelligence-Team/Project-1-Embedded-Systems-Course-/archive/refs/heads/main.zip"
+                                class="inline-flex items-center px-3 ml-4 py-2 text-sm font-medium text-center text-white  rounded-lg duration-300 focus:ring-4 focus:outline-none focus:ring-blue-30 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">
+                                Download Exe File
                                 <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                     fill="none" viewBox="0 0 14 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -175,7 +188,7 @@
     </div>
     <!-- end projects -->
     <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
-    <script src="./main.js">
+    <script src="./js/main.js">
     </script>
 </body>
 
