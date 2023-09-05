@@ -76,8 +76,7 @@ html {
     width: 100%;
     position: fixed;
     z-index: 99900;
-    transition:0.6s;
-
+    transition: .6s;
 }
 
 /* end load */
@@ -136,7 +135,7 @@ html {
 
     .content .img {
         width: 170px;
-        margin-right: 10px;
+        /* margin-right: 10px; */
     }
 
     .content ul div:first-child {
@@ -187,10 +186,14 @@ html {
 
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
 .content img {
-    margin-right: 700px;
-    margin-right: 700px;
+
     margin-top: 20px;
     width: 270px;
 }
@@ -253,15 +256,15 @@ html {
 
 
 @media (min-width: 1080px) {
-    .content .img {
+    /* .content .img {
         margin-right: 1100px;
-    }
+    } */
 }
 
 @media (max-width:1366px) {
-    .content .img {
+    /* .content .img {
         margin-right: 700px;
-    }
+    } */
 }
 
 
