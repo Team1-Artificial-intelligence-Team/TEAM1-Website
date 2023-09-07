@@ -31,7 +31,8 @@ html {
     color: black;
     border-radius: 40px;
     cursor: pointer;
-    transform: translatey(-1000px);
+    transform: translatey(10px);
+    opacity: 0;
     transition: 0.3s;
     overflow: hidden;
     z-index: 9999999;
@@ -60,6 +61,7 @@ html {
 
 .up.show {
     /* right: 10px; */
+    opacity: 1;
     transform: translatey(-10px);
 }
 
