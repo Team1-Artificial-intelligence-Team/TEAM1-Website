@@ -6,7 +6,9 @@ let card3 = document.querySelector(".hassan-mohamed3");
 let card4 = document.querySelector(".hassan-mohamed4");
 let lan = document.querySelector(".div");
 let loader = document.getElementById("pre-loader");
-
+let pro1 = document.querySelector("#pro1");
+let pro2 = document.querySelector("#pro2");
+let pro3 = document.querySelector("#pro3");
 
 // write
 var typed = new Typed(".t", {
@@ -48,6 +50,10 @@ window.onscroll = function () {
     this.scrollY >= 300 ? card2.classList.add("show") : 0;
     this.scrollY >= 700 ? card3.classList.add("show") : 0;
     this.scrollY >= 1100 ? card4.classList.add("show") : 0;
+    this.scrollY >= 1740 ? pro1.classList.add("show") : 0;
+    this.scrollY >= 1740 ? pro2.classList.add("show") : 0;
+    this.scrollY >= 1740 ? pro3.classList.add("show") : 0;
+
 };
 
 
@@ -56,3 +62,7 @@ window.addEventListener("load", function () {
         loader.style.display = "none";
     }, 3000);
 });
+
+
+
+
