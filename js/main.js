@@ -1,15 +1,12 @@
 //def 
 let span = document.querySelector(".up");
-let card1 = document.querySelector(".hassan-mohamed1");
-let card2 = document.querySelector(".hassan-mohamed2");
-let card3 = document.querySelector(".hassan-mohamed3");
-let card4 = document.querySelector(".hassan-mohamed4");
+let card = document.querySelectorAll(".card");
 let lan = document.querySelector(".div");
 let loader = document.getElementById("pre-loader");
 let pro1 = document.querySelector("#pro1");
 let pro2 = document.querySelector("#pro2");
 let pro3 = document.querySelector("#pro3");
-
+let body = document.querySelector("body");
 // write
 var typed = new Typed(".t", {
     strings: ["We are Team 1 - We specialize in Artificial Intelligence", "We are Team 1 - We specialize in Embedded Systems", "We are Team 1 - We specialize in Software Engineering"],
@@ -28,15 +25,30 @@ span.onclick = function () {
     });
 };
 
+function disabled() {
+    return false;
+}
 // write ani
 window.onload = function () {
+    window.scrollTo({
+        top: 0,
+    });
+    body.classList.toggle("scroll");
     setTimeout(function () {
         lan.classList.add("show");
+        body.classList.toggle("scroll");
     }, 3200)
 }
 
-
-
+body.onmousedown = function () {
+    return false;
+}
+body.onselectstart = function () {
+    return false;
+}
+document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+});
 window.onscroll = function () {
     console.log(this.scrollY);
     // this.scrollY >= 300 ? card1.classList.add("show") : card1.classList.remove("show");
@@ -46,13 +58,13 @@ window.onscroll = function () {
     // scroll to top show 
     this.scrollY >= 600 ? span.classList.add("show") : span.classList.remove("show");
     // cards show
-    this.scrollY >= 300 ? card1.classList.add("show") : 0;
-    this.scrollY >= 300 ? card2.classList.add("show") : 0;
-    this.scrollY >= 700 ? card3.classList.add("show") : 0;
-    this.scrollY >= 1100 ? card4.classList.add("show") : 0;
-    this.scrollY >= 1740 ? pro1.classList.add("show") : 0;
-    this.scrollY >= 1740 ? pro2.classList.add("show") : 0;
-    this.scrollY >= 1740 ? pro3.classList.add("show") : 0;
+    // this.scrollY >= 300 ? card1.classList.add("show") : 0;
+    // this.scrollY >= 300 ? card2.classList.add("show") : 0;
+    // this.scrollY >= 700 ? card3.classList.add("show") : 0;
+    // this.scrollY >= 1100 ? card4.classList.add("show") : 0;
+    this.scrollY >= 1330 ? pro1.classList.add("show") : 0;
+    this.scrollY >= 1330 ? pro2.classList.add("show") : 0;
+    this.scrollY >= 1330 ? pro3.classList.add("show") : 0;
 
 };
 
