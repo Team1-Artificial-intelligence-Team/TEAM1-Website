@@ -1,6 +1,10 @@
 //def 
 let span = document.querySelector(".up");
-let card = document.querySelectorAll(".card");
+let card1 = document.querySelector(".card1");
+let card2 = document.querySelector(".card2");
+let card3 = document.querySelector(".card3");
+let card4 = document.querySelector(".card4");
+let card5 = document.querySelector(".card5");
 let lan = document.querySelector(".div");
 let loader = document.getElementById("pre-loader");
 let pro1 = document.querySelector("#pro1");
@@ -56,7 +60,7 @@ window.onscroll = function () {
     // this.scrollY >= 700 ? card3.classList.add("show") : card3.classList.remove("show");
     // this.scrollY >= 1100 ? card4.classList.add("show") : card4.classList.remove("show");
     // scroll to top show 
-    this.scrollY >= 600 ? span.classList.add("show") : span.classList.remove("show");
+    this.scrollY >= 500 ? span.classList.add("show") : span.classList.remove("show");
     // cards show
     // this.scrollY >= 300 ? card1.classList.add("show") : 0;
     // this.scrollY >= 300 ? card2.classList.add("show") : 0;
@@ -66,6 +70,11 @@ window.onscroll = function () {
     this.scrollY >= 1330 ? pro2.classList.add("show") : 0;
     this.scrollY >= 1330 ? pro3.classList.add("show") : 0;
 
+    this.scrollY >= 400 ? card1.classList.add("show") : 0;
+    this.scrollY >= 400 ? card2.classList.add("show") : 0;
+    this.scrollY >= 400 ? card3.classList.add("show") : 0;
+    this.scrollY >= 400 ? card4.classList.add("show") : 0;
+    this.scrollY >= 1000 ? card5.classList.add("show") : 0;
 };
 
 
