@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="./css/main.css">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -144,20 +145,20 @@
             </div>
         </div> -->
         <div class="wrapper">
-            <div class="card">
-                <img src="./img/unknown_person.png" alt="" />
+            <div class="card1 card">
+                <img src="./img/fares.png" alt="" />
                 <div id="container">
                     <p id="name" class=" font-bold tracking-tight text-white">Fares Mostafa</p>
                     <p id="exp" class=" text-gray-400">I have experience in various fields
                         including embedded systems, artificial intelligence, <br>
-                        software engineering, 3D modeling and animation and motion graphics
+                        software engineering, 3D modeling, animation and motion graphics
                         <br>
                     </p>
 
                 </div>
             </div>
-            <div class="card">
-                <img src="./img/unknown_person.png" alt="" />
+            <div class="card2 card">
+                <img src="./img/hassanpng.png" alt="" />
                 <div id="container">
                     <p id="name" class=" font-bold tracking-tight text-white">Hassan Mohamed </p>
                     <p id="exp" class=" text-gray-400">Specialized in: Artificial intelligence and Embedded Systems.
@@ -168,7 +169,7 @@
                     <a href="https://www.micaegypt.com/" id="button" target="blank">MICA</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card3 card">
                 <img src="./img/unknown_person.png" alt="" />
                 <div id="container">
                     <p id="name" class=" font-bold tracking-tight text-white">Omar Adel </p>
@@ -180,7 +181,7 @@
                     <a href="https://www.micaegypt.com/" id="button" target="blank">MICA</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card4 card">
                 <img src="./img/unknown_person.png" alt="" />
                 <div id="container">
                     <p id="name" class=" font-bold tracking-tight text-white">Youssef Tamer </p>
@@ -192,8 +193,8 @@
                     </p>
                 </div>
             </div>
-            <div class="card">
-                <img src="./img/unknown_person.png" alt="" />
+            <div class="card card5">
+                <img src="./img/yousefwalid2.png" alt="" />
                 <div id="container">
                     <p id="name" class=" font-bold tracking-tight text-white">Youssef Walid </p>
                     <p id="exp" class="text-gray-400">Specialized in: Artificial intelligence and Embedded Systems.
@@ -208,87 +209,97 @@
         </div>
         <br>
         <br>
-        <!--end about us -->
-        <!-- start projects -->
-        <div class="container mb-5 " id="projects">
-            <h1 class=" my-4 text-[50px] text-white h1-pro uppercase">- projects -</h1>
-            <div class="px-5 con">
-                <div id="pro1">
-                    <div class="max-w-sm   rounded-lg bg-gray-800 border-gray-700 p-4  ">
-                        <img class="rounded-t-lg" src="./img/pro1.png" alt="" class=" w-54 " />
-                        <div class="p-5">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white cursor-default">
-                                This project, in brief, was developed by Team 1 and uses the bubble sort algorithm.
-                            </h5>
-                            <p class="mb-3 font-normal  text-gray-400 cursor-default">Sorting Names in
-                                Array.</p>
-                            <div class="flex justify-start items-start flex-col">
-                                <a href="https://github.com/Team1-Artificial-intelligence-Team/Project-3-Embedded-Systems-Course-/archive/refs/heads/main.zip"
-                                    class="inline-flex items-center px-3 ml-4 py-2 text-sm font-medium text-center text-white  rounded-lg duration-300 focus:ring-4 focus:outline-none focus:ring-blue-30 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800 mb-4">
-                                    Download Source Code
-                                    <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                        fill="none" viewBox="0 0 14 10">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                    </svg>
-                                </a>
-                            </div>
+    </div>
+    <!--end about us -->
+    <!-- start projects -->
+    <div class="container mb-10 " id="projects">
+        <h1 class=" my-4 text-[50px] text-white h1-pro uppercase">- projects -</h1>
+        <div class="px-5 con">
+            <div id="pro1">
+                <div class="max-w-sm   rounded-lg bg-gray-800 border-gray-700 p-4  ">
+                    <img class="rounded-t-lg" src="./img/pro1.png" alt="" class=" w-54 " />
+                    <div class="p-5">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white cursor-default">
+                            This project, in brief, was developed by Team 1 and uses the bubble sort algorithm.
+                        </h5>
+                        <p class="mb-3 font-normal  text-gray-400 cursor-default">Sorting Names in
+                            Array.</p>
+                        <div class="flex justify-start items-start flex-col">
+                            <a href="https://github.com/Team1-Artificial-intelligence-Team/Project-3-Embedded-Systems-Course-/archive/refs/heads/main.zip"
+                                class="inline-flex items-center px-3 ml-4 py-2 text-sm font-medium text-center text-white  rounded-lg duration-300 focus:ring-4 focus:outline-none focus:ring-blue-30 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800 mb-4">
+                                Download Source Code
+                                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div id="pro2">
-                    <div class="max-w-sm   rounded-lg bg-gray-800 border-gray-700 p-7  ">
-                        <img class="rounded-t-lg" src="./img/pro2.png" alt="" class=" w-54 " />
-                        <div class="p-5">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white cursor-default">
-                                This project, in brief, was developed by Team 1 and
-                                uses the bubble sort algorithm and pointers.
-                            </h5>
-                            <p class="mb-3 font-normal  text-gray-400 cursor-default">Sorting Numbers in
-                                Array.</p>
-                            <div class="flex justify-start items-start flex-col">
-                                <a href="https://github.com/Team1-Artificial-intelligence-Team/Project-2-Embedded-Systems-Course-/archive/refs/heads/main.zip"
-                                    class="inline-flex items-center px-3 ml-4 py-2 text-sm font-medium text-center text-white  rounded-lg duration-300 focus:ring-4 focus:outline-none focus:ring-blue-30 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800 mb-4">
-                                    Download Source Code
-                                    <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                        fill="none" viewBox="0 0 14 10">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                    </svg>
-                                </a>
-                            </div>
+            </div>
+            <div id="pro2">
+                <div class="max-w-sm   rounded-lg bg-gray-800 border-gray-700 p-7  ">
+                    <img class="rounded-t-lg" src="./img/pro2.png" alt="" class=" w-54 " />
+                    <div class="p-5">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white cursor-default">
+                            This project, in brief, was developed by Team 1 and
+                            uses the bubble sort algorithm and pointers.
+                        </h5>
+                        <p class="mb-3 font-normal  text-gray-400 cursor-default">Sorting Numbers in
+                            Array.</p>
+                        <div class="flex justify-start items-start flex-col">
+                            <a href="https://github.com/Team1-Artificial-intelligence-Team/Project-2-Embedded-Systems-Course-/archive/refs/heads/main.zip"
+                                class="inline-flex items-center px-3 ml-4 py-2 text-sm font-medium text-center text-white  rounded-lg duration-300 focus:ring-4 focus:outline-none focus:ring-blue-30 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800 mb-4">
+                                Download Source Code
+                                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div id="pro3">
-                    <div class="max-w-sm   rounded-lg bg-gray-800 border-gray-700  p-7 py-[43px]">
-                        <img class="rounded-t-lg" src="./img/pro3.png" alt="" class=" w-54 " />
-                        <div class="p-5">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white cursor-default">
-                                This project, in brief, was developed by Team 1 and uses Students Data Base.
-                            </h5>
-                            <p class="mb-3 font-normal  text-gray-400 cursor-default">Students Database</p>
-                            <div class="flex justify-start items-start flex-col">
-                                <a href="https://github.com/Team1-Artificial-intelligence-Team/Project-3-Embedded-Systems-Course-/archive/refs/heads/main.zip"
-                                    class="inline-flex items-center px-3 ml-4 py-2 text-sm font-medium text-center text-white  rounded-lg duration-300 focus:ring-4 focus:outline-none focus:ring-blue-30 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800 mb-4">
-                                    Download Source Code
-                                    <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                        fill="none" viewBox="0 0 14 10">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                    </svg>
-                                </a>
-                            </div>
+            <div id="pro3">
+                <div class="max-w-sm   rounded-lg bg-gray-800 border-gray-700  p-7 py-[43px]">
+                    <img class="rounded-t-lg" src="./img/pro3.png" alt="" class=" w-54 " />
+                    <div class="p-5">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white cursor-default">
+                            This project, in brief, was developed by Team 1 and uses Students Data Base.
+                        </h5>
+                        <p class="mb-3 font-normal  text-gray-400 cursor-default">Students Database</p>
+                        <div class="flex justify-start items-start flex-col">
+                            <a href="https://github.com/Team1-Artificial-intelligence-Team/Project-3-Embedded-Systems-Course-/archive/refs/heads/main.zip"
+                                class="inline-flex items-center px-3 ml-4 py-2 text-sm font-medium text-center text-white  rounded-lg duration-300 focus:ring-4 focus:outline-none focus:ring-blue-30 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800 mb-4">
+                                Download Source Code
+                                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- end projects -->
-        <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
-        <script src="./js/main.js">
-        </script>
+    </div>
+    <!-- end projects -->
+    <!-- start footer -->
+    <footer>
+        <ul class="social_icon">
+            <li><a href="https://github.com/Team1-Artificial-intelligence-Team" target="blank"><ion-icon
+                        name="logo-github"></ion-icon></a></li>
+        </ul>
+        <p>© TEAM1 2023. All rights reserved.</p>
+    </footer>
+    <!-- end footer -->
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script src="./js/main.js">
+    </script>
 </body>
 
 </html>
