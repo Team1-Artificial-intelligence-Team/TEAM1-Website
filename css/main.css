@@ -500,6 +500,7 @@ a {
   transform: translateX(0);
   opacity: 1;
 }
+
 #pro4 {
   transition: 1s;
   opacity: 0;
@@ -510,6 +511,12 @@ a {
   transform: translateX(0);
   opacity: 1;
 }
+
+.disLINK {
+  opacity: .3;
+  cursor: not-allowed;
+}
+
 /* end projects */
 
 /* start footer  */
